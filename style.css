@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: #00FF00;
+    font-family: monospace;
+    font-size: 16px;
+}
+
+h1,
+h2 {
+    margin-left: 10px;
+    color: #FFFFFF;
+    font-weight: normal;
+}
+
+#head {
+    margin-right: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.home,
+.doc,
+.git {
+    margin-top: 10px;
+    width: 100px;
+}
+
+p {
+    margin-left: 10px;
+}
+
+a {
+    color: #00FF00;
+}
+
+button {
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    background-color: #006400;
+    color: #00FF00;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #00FF00;
+    background-color: #006400;
+}
+
+footer {
+    background-color: #006400;
+    color: #00FF00;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
