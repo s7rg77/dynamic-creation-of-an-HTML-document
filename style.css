@@ -1,6 +1,13 @@
+html,
 body {
     margin: 0px;
     padding: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
     background-color: black;
     color: #00FF00;
     font-family: monospace;
@@ -14,16 +21,21 @@ h2 {
     font-weight: normal;
 }
 
-#head {
+header {
+    margin-top: 10px;
     margin-right: 10px;
     display: flex;
     justify-content: flex-end;
 }
 
+main {
+    margin-bottom: 10px;
+    flex: 1;
+}
+
 .home,
 .doc,
 .git {
-    margin-top: 10px;
     width: 100px;
 }
 
@@ -32,6 +44,7 @@ p {
 }
 
 a {
+    margin-left: 10px;
     color: #00FF00;
 }
 
@@ -50,10 +63,8 @@ button:hover {
 }
 
 footer {
-    bottom: 0px;
     width: 100%;
     background-color: #006400;
     color: #00FF00;
     text-align: center;
-    position: fixed;
 }
